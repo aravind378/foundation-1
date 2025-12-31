@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Causes</title>
+    <script src="https://kit.fontawesome.com/4b4d66f7f6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+  <div class="logo"><img src="../images/logo.png" alt=""></div>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../about/index.html">About</a>
+    <a href="#" class="active">Cause</a>
+    
+    <a href="#">Blogs</a>
+    <a href="../contact/index.html">Contact</a>
+  </nav>
+  <a href="#" class="sign-btn">Get a Quote</a>
+</header>
+
+
+<!-- Mobile Navigation Bar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <img src="../images/logo.png" alt="" class="navbar-brand">
+    <!-- Toggler button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <img src="https://img.icons8.com/?size=100&id=OTxpMqWbm71F&format=png&color=000000" alt="" width="40px">
+    </button>
+
+  <!-- Offcanvas Menu -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+      <img src="../images/logo.png" class="offcanvas-title" id="offcanvasNavbarLabel">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../about/index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Cause</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blogs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../contact/index.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</nav>
+<!-- mobile navigation end  -->
+
+
+
+<div class="child1">
+    <p class="child1-title">Our Causes</p>
+    <div class="tabs">
+        <button id="all-btn" onclick="full()">All</button>
+        <button id="food-btn" onclick="food()">Food</button>
+        <button id="education-btn" onclick="education()">Education</button>
+        <button id="orphanage-btn" onclick="orphanage()">Orphanage</button>
+        <button id="health-btn" onclick="health()">Health Care</button>
+    </div>
+</div>
+
+
+
+<div class="child2">
+
+    <div class="donation-card">
+        <div class="img-wrap">
+            <img src="../images/santa.webp" alt="Egg & Milk">
+            <span class="whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+        </div>
+        <div class="donate-content">
+            <h4>Egg & Milk</h4>
+            <p class="price">₹30/Child</p>
+        </div>
+        <button>Donate Now</button>
+    </div>
+
+    <div class="donation-card">
+        <div class="img-wrap">
+            <img src="../images/school_bag.webp" alt="Banana & Milk">
+            <span class="whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+        </div>
+        <div class="donate-content">
+            <h4>Banana & Milk</h4>
+            <p class="price">₹30/Child</p>
+        </div>
+        <button>Donate Now</button>
+    </div>
+
+    <div class="donation-card">
+        <div class="img-wrap">
+            <img src="../images/santa.webp" alt="Virtual Cake">
+            <span class="whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+        </div>
+        <div class="donate-content">
+            <h4>Virtual Cake</h4>
+            <p class="price">₹4000/Celebration</p>
+        </div>
+        <button>Donate Now</button>
+    </div>
+
+    <div class="donation-card">
+        <div class="img-wrap">
+            <img src="../images/school_bag.webp" alt="Birthday Cake">
+            <span class="whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+        </div>
+        <div class="donate-content">
+            <h4>Birthday Cake</h4>
+            <p class="price">₹1600 (20 children)</p>
+        </div>
+        <button>Donate Now</button>
+    </div>
+
+    <div class="donation-card">
+        <div class="img-wrap">
+            <img src="../images/grocery_kit.webp" alt="Egg & Milk">
+            <span class="whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+        </div>
+        <div class="donate-content">
+            <h4>Egg & Milk</h4>
+            <p class="price">₹30/Child</p>
+        </div>
+        <button>Donate Now</button>
+    </div>
+
+    <div class="donation-card">
+        <div class="img-wrap">
+            <img src="../images/slipper.webp" alt="Banana & Milk">
+            <span class="whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+        </div>
+        <div class="donate-content">
+            <h4>Banana & Milk</h4>
+            <p class="price">₹30/Child</p>
+        </div>
+        <button>Donate Now</button>
+    </div>
+
+    <div class="donation-card">
+        <div class="img-wrap">
+            <img src="../images/mosquito_net-2.webp" alt="Virtual Cake">
+            <span class="whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+        </div>
+        <div class="donate-content">
+            <h4>Virtual Cake</h4>
+            <p class="price">₹4000/Celebration</p>
+        </div>
+        <button>Donate Now</button>
+    </div>
+
+    <div class="donation-card">
+        <div class="img-wrap">
+            <img src="../images/vbc.jpg" alt="Birthday Cake">
+            <span class="whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+        </div>
+        <div class="donate-content">
+            <h4>Birthday Cake</h4>
+            <p class="price">₹1600 (20 children)</p>
+        </div>
+        <button>Donate Now</button>
+    </div>
+
+    <div class="donation-card">
+        <div class="img-wrap">
+            <img src="../images/CAKE.webp" alt="Egg & Milk">
+            <span class="whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+        </div>
+        <div class="donate-content">
+            <h4>Egg & Milk</h4>
+            <p class="price">₹30/Child</p>
+        </div>
+        <button>Donate Now</button>
+    </div>
+
+    <div class="donation-card">
+        <div class="img-wrap">
+            <img src="../images/Veg_Briyani.webp" alt="Banana & Milk">
+            <span class="whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+        </div>
+        <div class="donate-content">
+            <h4>Banana & Milk</h4>
+            <p class="price">₹30/Child</p>
+        </div>
+        <button>Donate Now</button>
+    </div>
+
+    <div class="donation-card">
+        <div class="img-wrap">
+            <img src="../images/d_cck1.jpg" alt="Virtual Cake">
+            <span class="whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+        </div>
+        <div class="donate-content">
+            <h4>Virtual Cake</h4>
+            <p class="price">₹4000/Celebration</p>
+        </div>
+        <button>Donate Now</button>
+    </div>
+
+    <div class="donation-card">
+        <div class="img-wrap">
+            <img src="../images/d_bicycle.jpg" alt="Birthday Cake">
+            <span class="whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+        </div>
+        <div class="donate-content">
+            <h4>Birthday Cake</h4>
+            <p class="price">₹1600 (20 children)</p>
+        </div>
+        <button>Donate Now</button>
+    </div>
+
+</div>
+
+
+
+<footer class="footer">
+
+    <div class="footer-container">
+        <!-- ABOUT -->
+        <div class="footer-col">
+            <h3>About us</h3>
+            <p>
+                Because it does not spend hours selling to customers, maintaining a
+                brick and mortar stores, or paying for a commissions, Carify Auto
+                Center can run more with in efficiently than a traditional.
+            </p>
+
+            <div class="footer-contact">
+                <span class="icon"><i class="fa-solid fa-phone" style="color: red;"></i></span>
+                <p><strong>Phone:</strong> 94866 59676</p>
+            </div>
+
+            <div class="footer-contact">
+                <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                <p><strong>Phone:</strong> shreenethrafoundation@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3>Our Pages</h3>
+            <div class="two-ul">
+                <ul>
+                    <li><a href="../about/index.html">About</a></li>
+                    <li><a href="#">Volunteer</a></li>
+                    <li><a href="#">Donation</a></li>
+                    <li><a href="#">Faq</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#" class="active">Couse</a></li>
+                    <li><a href="../contact/index.html">Contact</a></li>
+                    <li><a href="#">Our Event</a></li>
+                    <li><a href="#">Mission</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3>Causes</h3>
+
+            <div class="two-ul">
+                <ul>
+                    <li><a href="#">Water</a></li>
+                    <li><a href="#">Donation</a></li>
+                    <li><a href="#">Medical</a></li>
+                    <li><a href="#">Refuse Camp</a></li>
+                    <li><a href="#">Blood Donation</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Medicine</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Shelter</a></li>
+                    <li><a href="#">Fresh Food</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-col recent-posts">
+            <h3>Recent Post</h3>
+
+            <div class="post-item">
+                <img src="../images/child4-1.jpg" alt="">
+                <div>
+                    <a class="post-title" href="#">All People can help others but</a>
+                    <span class="date">August 18, 2021</span>
+                </div>
+            </div>
+
+            <div class="post-item">
+                <img src="../images/child4-2.jpg" alt="">
+                <div>
+                    <a class="post-title" href="#">What takes an online fundraising site</a>
+                    <span class="date">August 18, 2021</span>
+                </div>
+            </div>
+
+            <div class="post-item">
+                <img src="../images/chiild4-3.jpg" alt="">
+                <div>
+                    <a class="post-title" href="#">Themepure always offers for everybody to</a>
+                    <span class="date">August 18, 2021</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top">🡹</a>
+</footer>
+
+<p class="copy-right">Copyright © 2024 Donakion. All Rights Reserved</p>
+
+</body>
+
+
+<script>
+      all_btn = document.getElementById('all-btn');
+      food_btn = document.getElementById('food-btn');
+      education_btn = document.getElementById('education-btn');
+      orphanage_btn = document.getElementById('orphanage-btn');
+      health_btn = document.getElementById('health-btn');
+
+
+
+      function full() {
+          all_btn.style.backgroundColor = "#5ce1e6";
+          all_btn.style.color = "#2f4158";
+
+          food_btn.style.backgroundColor = "white";
+          food_btn.style.color = "#222";
+
+          education_btn.style.backgroundColor = "white";
+          education_btn.style.color = "#222";
+
+          orphanage_btn.style.backgroundColor = "white";
+          orphanage_btn.style.color = "#222";
+
+          health_btn.style.backgroundColor = "white";
+          health_btn.style.color = "#222";
+      }
+
+      function food() {
+          food_btn.style.backgroundColor = "#5ce1e6";
+          food_btn.style.color = "#2f4158";
+
+          all_btn.style.backgroundColor = "white";
+          all_btn.style.color = "#222";
+
+          education_btn.style.backgroundColor = "white";
+          education_btn.style.color = "#222";
+
+          orphanage_btn.style.backgroundColor = "white";
+          orphanage_btn.style.color = "#222";
+
+          health_btn.style.backgroundColor = "white";
+          health_btn.style.color = "#222";
+      }
+
+      function education() {
+          education_btn.style.backgroundColor = "#5ce1e6";
+          education_btn.style.color = "#2f4158";
+
+          food_btn.style.backgroundColor = "white";
+          food_btn.style.color = "#222";
+
+          all_btn.style.backgroundColor = "white";
+          all_btn.style.color = "#222";
+
+          orphanage_btn.style.backgroundColor = "white";
+          orphanage_btn.style.color = "#222";
+
+          health_btn.style.backgroundColor = "white";
+          health_btn.style.color = "#222";
+      }
+
+      function orphanage() {
+          orphanage_btn.style.backgroundColor = "#5ce1e6";
+          orphanage_btn.style.color = "#2f4158";
+
+          food_btn.style.backgroundColor = "white";
+          food_btn.style.color = "#222";
+
+          education_btn.style.backgroundColor = "white";
+          education_btn.style.color = "#222";
+
+          all_btn.style.backgroundColor = "white";
+          all_btn.style.color = "#222";
+
+          health_btn.style.backgroundColor = "white";
+          health_btn.style.color = "#222";
+      }
+
+      function health() {
+          health_btn.style.backgroundColor = "#5ce1e6";
+          health_btn.style.color = "#2f4158";
+
+          food_btn.style.backgroundColor = "white";
+          food_btn.style.color = "#222";
+
+          education_btn.style.backgroundColor = "white";
+          education_btn.style.color = "#222";
+
+          all_btn.style.backgroundColor = "white";
+          all_btn.style.color = "#222";
+
+          orphanage_btn.style.backgroundColor = "white";
+          orphanage_btn.style.color = "#222";
+      }
+</script>
+
+
+</html>
